@@ -21,7 +21,6 @@ C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\o
 C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.AssemblyInfoInputs.cache
 C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.AssemblyInfo.cs
 C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.csproj.CoreCompileInputs.cache
-C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.sourcelink.json
 C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.dll
 C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\refint\ScreenSound.dll
 C:\Users\xXPZC\OneDrive\Documentos\github\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.pdb
