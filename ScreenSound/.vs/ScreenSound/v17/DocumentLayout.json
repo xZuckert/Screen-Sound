@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\",
+  "WorkspaceRootPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C38D276-1097-4A0F-9578-360C6FDBEB7B}|ScreenSound\\ScreenSound.csproj|c:\\users\\xxpzc\\onedrive\\documentos\\github\\screen-sound\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C38D276-1097-4A0F-9578-360C6FDBEB7B}|ScreenSound\\ScreenSound.csproj|c:\\users\\xxpzc\\source\\repos\\screen-sound\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C38D276-1097-4A0F-9578-360C6FDBEB7B}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
-              "ToolTip": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\Program.cs*",
-              "RelativeToolTip": "ScreenSound\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound\\ScreenSound\\ScreenSound\\Program.cs",
+              "RelativeToolTip": "ScreenSound\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T15:22:30.223Z",
               "EditorCaption": ""
