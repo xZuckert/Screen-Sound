@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xXPZC\\OneDrive\\Documentos\\Jetbrains Projects\\RiderProjects\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xXPZC\\OneDrive\\Documentos\\Jetbrains Projects\\RiderProjects\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\Jetbrains Projects\\RiderProjects\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\Jetbrains Projects\\RiderProjects\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectPath": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\xXPZC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\Jetbrains Projects\\RiderProjects\\ScreenSound\\ScreenSound\\obj\\",
+        "outputPath": "C:\\Users\\xXPZC\\OneDrive\\Documentos\\github\\Screen-Sound\\ScreenSound\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
