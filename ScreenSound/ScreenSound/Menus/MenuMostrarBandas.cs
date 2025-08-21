@@ -2,9 +2,9 @@
 namespace ScreenSound.Menus;
     internal class MenuMostrarBandas : Menu
     {
-        public void Executar(Dictionary<string, Banda> bandasRegistradas)
+        public override void Executar(Dictionary<string, Banda> bandasRegistradas)
         {
-            Console.Clear();
+            base.Executar(bandasRegistradas);
             ExibirMensagemTitulo("Lista de Bandas Registradas");
             Thread.Sleep(200);
             if (bandasRegistradas.Keys.Count == 0)
