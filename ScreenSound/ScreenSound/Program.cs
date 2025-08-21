@@ -1,12 +1,12 @@
 ﻿using ScreenSound.Modelos;
 Banda ira = new Banda("Ira");
-ira.AdicionarNota(10);
-ira.AdicionarNota(8);
-ira.AdicionarNota(6);
+ira.AdicionarNota(new Avaliacao(10));
+ira.AdicionarNota(new Avaliacao(8));
+ira.AdicionarNota(new Avaliacao(6));
 Banda legiao = new Banda("Legião Urbana");
-legiao.AdicionarNota(8);
-legiao.AdicionarNota(7);
-legiao.AdicionarNota(9);
+legiao.AdicionarNota(new Avaliacao(8));
+legiao.AdicionarNota(new Avaliacao(7));
+legiao.AdicionarNota(new Avaliacao(9));
 
 //Titulos e variaveis inicializadas
 Console.Clear(); string logo = @"
@@ -129,14 +129,25 @@ void AvaliarUmaBanda()
     {
         Banda banda = bandasRegistradas[nomeDaBanda];
         Console.Write($"Qual nota deseja dar a banda {nomeDaBanda}: ");
-        int nota = int.Parse(Console.ReadLine()!);
-        banda.AdicionarNota(nota);
-        Console.WriteLine($"\nA nota {nota} foi registrada para a banda {nomeDaBanda}!");
-        Thread.Sleep(500);
-        Console.Write("\nPrecione qualquer botão para voltar ao menu");
-        Console.ReadKey();
-        Console.Clear();
-        ExibirOpçõesMenu();
+        Avaliacao nota = Avaliacao.Parse(Console.ReadLine()!);
+        if (nota.Nota < 0 || nota.Nota > 10)
+        {
+            Console.WriteLine("Nota inválida! A nota deve ser entre 0 e 10.");
+            Console.Write("\nPrecione qualquer botão para voltar ao menu");
+            Console.ReadKey();
+            Console.Clear();
+            ExibirOpçõesMenu();
+        }
+        else
+        {
+            banda.AdicionarNota(nota);
+            Console.WriteLine($"\nA nota {nota.Nota} foi registrada para a banda {nomeDaBanda}!");
+            Thread.Sleep(500);
+            Console.Write("\nPrecione qualquer botão para voltar ao menu");
+            Console.ReadKey();
+            Console.Clear();
+            ExibirOpçõesMenu();
+        }
     }
     else
     {
