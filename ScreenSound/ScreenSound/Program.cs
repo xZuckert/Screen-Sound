@@ -9,9 +9,15 @@
 void ExibirMensagem(string logo, string msg){
     Console.WriteLine(logo); 
     Thread.Sleep(500);
-    Console.WriteLine("***************************");
-    Console.WriteLine(msg);
-    Console.WriteLine("***************************");
+    ExibirTitulo(msg);
+    Thread.Sleep(500);
+}
+void ExibirTitulo(string titulo) {
+    int quantLetras = titulo.Length;
+    string asteriscos = string.Empty.PadLeft(quantLetras, '*');
+    Console.WriteLine(asteriscos);
+    Console.WriteLine(titulo);
+    Console.WriteLine(asteriscos + "\n");
     Thread.Sleep(500);
 }
 void ExibirOpçõesMenu() {
@@ -37,9 +43,7 @@ void ExibirOpçõesMenu() {
 void RegistrarBanda()
 {
     Console.Clear();
-    Console.WriteLine("******************");
-    Console.WriteLine("Registro de Banda: ");
-    Console.WriteLine("******************\n");
+    ExibirTitulo("Registro de Banda");
     Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
     listaDasBandas.Add(nomeDaBanda);
@@ -51,9 +55,7 @@ void RegistrarBanda()
 void MostrarBandas()
 {
     Console.Clear();
-    Console.WriteLine("****************************");
-    Console.WriteLine("Lista de Bandas Registradas: ");
-    Console.WriteLine("****************************\n");
+    ExibirTitulo("Lista de Bandas Registradas");
     Thread.Sleep(500);
     if (listaDasBandas.Count == 0)
     {
@@ -61,10 +63,6 @@ void MostrarBandas()
     }
     else
     {
-        // for (int i = 0; i < listaDasBandas.Count; i++)
-        // {
-        //     Console.WriteLine($"{i + 1}. {listaDasBandas[i]}");
-        // }
         int i = 1;
         foreach (string banda in listaDasBandas) 
         {
