@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "W9XDcVxdp8I=",
+  "dgSpecHash": "eDgW4uyuFXI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xXPZC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\xXPZC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\xXPZC\\.nuget\\packages\\openai\\2.3.0\\openai.2.3.0.nupkg.sha512",
+    "C:\\Users\\xXPZC\\.nuget\\packages\\system.clientmodel\\1.5.1\\system.clientmodel.1.5.1.nupkg.sha512",
+    "C:\\Users\\xXPZC\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

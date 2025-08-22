@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\xXPZC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\obj\\",
+        "outputPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "OpenAI": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
