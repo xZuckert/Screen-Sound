@@ -1,4 +1,5 @@
 ﻿using ScreenSound.Modelos;
+using dotenv.net;
 using OpenAI;
 using OpenAI.Chat;
 
@@ -14,6 +15,8 @@ namespace ScreenSound.Menus;
         Banda banda = new Banda(nomeDaBanda);
         bandasRegistradas.Add(nomeDaBanda, banda);
         //Busca um pequeno resumo da banda registrada no chat gpt e o armazena em banda.Resumo
+        Console.WriteLine("\nAdicionando...");
+        DotEnv.Load();
         var apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
         var client = new OpenAIClient(apiKey);
         var chatClient = client.GetChatClient("gpt-4o-mini");

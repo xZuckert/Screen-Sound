@@ -40,3 +40,12 @@ C:\Users\xXPZC\Source\Repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.
 C:\Users\xXPZC\Source\Repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.pdb
 C:\Users\xXPZC\Source\Repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.genruntimeconfig.cache
 C:\Users\xXPZC\Source\Repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ref\ScreenSound.dll
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.csproj.AssemblyReference.cache
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSound.sourcelink.json
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\bin\Debug\net9.0\OpenAI.dll
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\obj\Debug\net9.0\ScreenSo.4E60E543.Up2Date
+C:\Users\xXPZC\source\repos\Screen-Sound\ScreenSound\ScreenSound\bin\Debug\net9.0\dotenv.net.dll

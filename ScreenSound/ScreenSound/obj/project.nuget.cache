@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eDgW4uyuFXI=",
+  "dgSpecHash": "YkhbYF1zVMQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+  "projectFilePath": "C:\\Users\\xXPZC\\Source\\Repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\xXPZC\\.nuget\\packages\\dotenv.net\\4.0.0\\dotenv.net.4.0.0.nupkg.sha512",
     "C:\\Users\\xXPZC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\xXPZC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
     "C:\\Users\\xXPZC\\.nuget\\packages\\openai\\2.3.0\\openai.2.3.0.nupkg.sha512",

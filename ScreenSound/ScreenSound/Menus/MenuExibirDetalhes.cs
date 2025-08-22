@@ -11,6 +11,7 @@ internal class MenuExibirDetalhes : Menu
         if (bandasRegistradas.ContainsKey(nomeDaBanda))
         {
             Banda banda = bandasRegistradas[nomeDaBanda];
+            Console.WriteLine($"\n{banda.Resumo}");
             Console.WriteLine($"\nA média da banda {nomeDaBanda} é {banda.Media}");
             Console.Write("\nPrecione qualquer botão para voltar ao menu");
             Console.ReadKey();

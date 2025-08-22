@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "dotenv.net/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
         "type": "package",
         "compile": {
@@ -89,6 +98,20 @@
     }
   },
   "libraries": {
+    "dotenv.net/4.0.0": {
+      "sha512": "SM8Qp6L/E3tsLKDFkV23M8WHyp5l1YqsXkylQDjQjV02Z2tUL3J6j1gV0gMs4L6YtoSB7jZPw2dnDdnpEXnpNQ==",
+      "type": "package",
+      "path": "dotenv.net/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dotenv.net.4.0.0.nupkg.sha512",
+        "dotenv.net.nuspec",
+        "lib/netstandard2.0/dotenv.net.dll",
+        "lib/netstandard2.1/dotenv.net.dll"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
       "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
       "type": "package",
@@ -264,7 +287,8 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "OpenAI >= 2.3.0"
+      "OpenAI >= 2.3.0",
+      "dotenv.net >= 4.0.0"
     ]
   },
   "packageFolders": {
@@ -274,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "projectUniqueName": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "projectPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
       "packagesPath": "C:\\Users\\xXPZC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound2\\ScreenSound\\ScreenSound\\obj\\",
+      "outputPath": "C:\\Users\\xXPZC\\source\\repos\\Screen-Sound\\ScreenSound\\ScreenSound\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -320,6 +344,10 @@
           "OpenAI": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "dotenv.net": {
+            "target": "Package",
+            "version": "[4.0.0, )"
           }
         },
         "imports": [
