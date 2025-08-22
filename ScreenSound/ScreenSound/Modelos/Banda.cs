@@ -8,7 +8,6 @@ internal class Banda : IAvaliavel
         Nome = nome;
     }
     public string Nome { get; }
-
     public double Media
     {
         get
@@ -24,7 +23,6 @@ internal class Banda : IAvaliavel
     {
         albuns.Add(album);
     }
-
     public void AdicionarNota(Avaliacao nota)
     {
         notas.Add(nota);
